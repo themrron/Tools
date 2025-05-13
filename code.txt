@@ -1,0 +1,45 @@
+multi-tools-website/
+├── index.html
+├── header.html
+├── footer.html
+├── css/
+│   ├── bootstrap.min.css  (if using Bootstrap)
+│   ├── style.css          (your custom styles)
+├── js/
+│   ├── main.js            (for index.html logic: tool listing, search)
+│   ├── tools-data.js      (array of tool objects for index.html)
+│   ├── common.js          (for loading header/footer, other shared functions)
+├── tools/
+│   ├── image-tools/
+│   │   ├── image-to-png.html
+│   │   ├── image-to-png.js
+│   │   ├── image-to-jpg.html
+│   │   ├── image-to-jpg.js
+│   │   └── ... (and so on for each image tool)
+│   ├── seo-tools/
+│   │   ├── meta-tag-generator.html
+│   │   ├── meta-tag-generator.js
+│   │   └── ...
+│   ├── text-tools/
+│   │   └── ...
+│   ├── developer-tools/
+│   │   └── ...
+│   ├── math-calculators/
+│   │   └── ...
+│   ├── unit-converters/
+│   │   └── ...
+│   ├── security-encryption-tools/
+│   │   └── ...
+│   ├── social-media-tools/
+│   │   └── ...
+│   ├── miscellaneous-tools/
+│   │   └── ...
+├── assets/
+│   ├── images/
+│   │   └── logo.png
+│   │   └── ... (other site images)
+│   └── icons/ (optional, for tool icons)
+└── ads/
+    └── ad-placeholder-sidebar.html
+    └── ad-placeholder-tool-page.html
+    └── ad-placeholder-footer.html

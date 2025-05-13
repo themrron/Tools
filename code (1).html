@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter - My Multi-Tools</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css"> <!-- Adjust path -->
+    <link rel="stylesheet" href="../../css/style.css">     <!-- Adjust path -->
+    <!-- Specific styles for this tool (optional) -->
+    <link rel="stylesheet" href="word-counter.css">
+</head>
+<body>
+    <header id="header-placeholder"></header>
+
+    <main class="container mt-4">
+        <h1>Word Counter</h1>
+        <p>Enter your text below to count words and characters.</p>
+
+        <!-- Tool specific UI -->
+        <div class="row">
+            <div class="col-md-8">
+                <textarea id="text-input" class="form-control" rows="10" placeholder="Paste your text here..."></textarea>
+            </div>
+            <div class="col-md-4">
+                <h4>Results:</h4>
+                <p>Words: <span id="word-count">0</span></p>
+                <p>Characters: <span id="char-count">0</span></p>
+                <p>Characters (no spaces): <span id="char-no-space-count">0</span></p>
+                <button id="clear-button" class="btn btn-warning mt-2">Clear Text</button>
+            </div>
+        </div>
+
+        <!-- Ad Placeholder for Tool Page -->
+        <div class="ad-placeholder-toolpage mt-4" style="min-height: 90px; background-color: #f0f0f0; text-align:center; line-height:90px;">
+            Ad Space (Tool Page)
+        </div>
+    </main>
+
+    <footer id="footer-placeholder"></footer>
+
+    <script src="../../js/common.js"></script> <!-- Adjust path -->
+    <script src="word-counter.js"></script>   <!-- Tool specific JS -->
+</body>
+</html>
